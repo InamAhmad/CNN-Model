@@ -5,8 +5,9 @@ import numpy as np
 from PIL import Image
 import os
 
-# Define the path where the saved model is located (in .h5 format)
-model_save_path_h5 = '/content/drive/MyDrive/archive/cnn_model.h5'
+# Define the relative path where the saved model is located (in .h5 format)
+# Assuming the model file (cnn_model.h5) is in the same directory as app.py
+model_save_path_h5 = 'cnn_model.h5'
 
 # Load the trained CNN model
 try:
